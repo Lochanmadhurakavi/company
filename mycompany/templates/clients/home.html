@@ -1,0 +1,159 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{% endblock title %}
+
+{% block content %}
+
+<div id="a">
+    <img id="inv" src="/static/img/invest2.jpg" alt="">
+    <div id="b" class="container">
+        <strong>
+            <h3 style="color: orange;">Company</h3>
+        <h2>Invest Your Time In Running <br> Your Business. <br>
+        Leave The Loan Processing <br> Efforts To Us.</h2>
+        </strong>
+    </div>
+</div>
+<div id="c">
+    <div id="cont" class="container pt-5 pb-5">
+        <div class="row">
+            <div class="card col mx-3" style="width: 15rem;border-radius:25px;">
+                <img src="/static/img/home_loan.jpg" class="card-img-top mt-1" alt="..." width="10px" height="200px" style="margin:auto; border-radius:25px;">
+                <br>
+                <div class="card-body" style="text-align: center;">
+                  <h5>Home Loans</h5>
+                  <br>
+                    <a href="{% url 'apply' %}" style="background-color: #367E18; color:white;" class="btn">Apply Now</a>
+                </div>
+              </div>
+              <div class="card col mx-3" style="width: 15rem;border-radius:25px;">
+                <img src="/static/img/car_loan.jpg" class="card-img-top mt-1" alt="..." width="10px" height="200px" style="margin:auto; border-radius:25px;">
+                <br>
+                <div class="card-body" style="text-align: center;">
+                  <h5>Car Loans</h5>
+                  <br>
+                    <a href="{% url 'apply' %}" style="background-color: #367E18; color:white;" class="btn">Apply Now</a>
+                </div>
+              </div>
+              <div class="card col mx-3" style="width: 15rem;border-radius:25px;">
+                <img src="/static/img/mortgage_loan1.jpg" class="card-img-top mt-1" alt="..." width="10px" height="200px" style="margin:auto; border-radius:25px;">
+                <br>
+                <div class="card-body" style="text-align: center;">
+                  <h5>Mortgage Loans</h5>
+                  <br>
+                    <a href="{% url 'apply' %}" style="background-color: #367E18; color:white;" class="btn">Apply Now</a>
+                </div>
+              </div>
+              <div class="card col mx-3" style="width: 15rem;border-radius:25px;">
+                <img src="/static/img/unsecured_loan.jpg" class="card-img-top mt-1" alt="..." width="10px" height="200px" style="margin:auto; border-radius:25px;">
+                <br> 
+                <div class="card-body" style="text-align: center;">
+                  <h5>Unsecured Loans</h5>
+                  <br>
+                    <a href="{% url 'apply' %}" style="background-color: #367E18; color:white;" class="btn">Apply Now</a>
+                </div>
+              </div>
+        </div>
+
+
+        <div class="row mt-5">
+            <div class="card col mx-3" style="width: 15rem;border-radius:25px;">
+                <img src="/static/img/med_equip.jpg" class="card-img-top mt-1" alt="..." width="10px" height="200px" style="margin:auto; border-radius:25px;">
+                <br>
+                <div class="card-body" style="text-align: center;">
+                  <h5>Medical Equipment <br> Loans</h5>
+                  <br>
+                    <a href="{% url 'apply' %}" style="background-color: #367E18; color:white;" class="btn">Apply Now</a>
+                </div>
+              </div>
+              <div class="card col mx-3" style="width: 15rem;border-radius:25px;">
+                <img src="/static/img/industrial_loan.jpg" class="card-img-top mt-1" alt="..." width="10px" height="200px" style="margin:auto; border-radius:25px;">
+                <br>
+                <div class="card-body" style="text-align: center;">
+                  <h5>Industrial & Printing <br>Eqipment Loans</h5>
+                  <br>
+                    <a href="{% url 'apply' %}" style="background-color: #367E18; color:white;" class="btn">Apply Now</a>
+                </div>
+              </div>
+              <div class="card col mx-3" style="width: 15rem;border-radius:25px;">
+                <img src="/static/img/doctors.jpg" class="card-img-top mt-1" alt="..." width="10px" height="200px" style="margin:auto; border-radius:25px;">
+                <br>
+                <div class="card-body" style="text-align: center;">
+                  <h5>Doctors Professional <br> Loans</h5>
+                  <br>
+                    <a href="{% url 'apply' %}" style="background-color: #367E18; color:white;" class="btn">Apply Now</a>
+                </div>
+              </div>
+              <div class="card col mx-3" style="width: 15rem;border-radius:25px;">
+                <img src="/static/img/unsecured_loan.jpg" class="card-img-top mt-1" alt="..." width="10px" height="200px" style="margin:auto; border-radius:25px;">
+                <br> 
+                <div class="card-body" style="text-align: center;">
+                  <h5></h5>
+                  <br>
+                  <br><br>
+                    <a href="{% url 'apply' %}" style="background-color: #367E18; color:white;" class="btn">View More</a>
+                </div>
+              </div> 
+        </div>
+
+    </div>
+
+</div>
+
+<div id="d">
+    <div id="abs" class="container">
+        <center><h4>Industries</h4>
+            <h3>Our Clients Are</h3></center>
+    </div>
+    <div id="icon" class="container">
+        <div class="row">
+            <div class="col">
+                <center>
+                    <img src="/static/img/clients/doc_symbol.jpg" alt="" style="width: 70px; height:70px;">
+                <h5>Doctors</h5>
+                </center>
+            </div>
+            
+            <div class="col">
+                <center>
+                    <img src="/static/img/clients/medical.jpg" alt="" style="width: 70px; height:70px;">
+                <h5>Medical</h5>
+                </center>
+            </div>
+
+            <div class="col">
+                <center>
+                    <img src="/static/img/clients/trade.jpg" alt="" style="width: 70px; height:70px;">
+                <h5>Trade</h5>
+                </center>
+            </div>
+
+            <div class="col">
+                <center>
+                    <img src="/static/img/clients/manufacturer.jpg" alt="" style="width: 70px; height:70px;">
+                <h5>Manufacturing</h5>
+                </center>
+            </div>
+
+            <div class="col">
+                <center><img src="/static/img/clients/pharmacy.jpg" alt="" style="width: 70px; height:70px;">
+                <h5>Pharmacy</h5></center>
+            </div>
+
+            <div class="col">
+                <center>
+                    <img src="/static/img/clients/msme.jpg" alt="" style="width: 70px; height:70px;">
+                <h5>MSME</h5>
+                </center>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+{% endblock content %}
